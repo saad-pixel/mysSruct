@@ -4,19 +4,18 @@ var name : String
 var age :  Int
 var city : String
 
-
 func printHello (){
   
-print( " hello i am  \(name)  my age \(age) lives in \(city)")
+print( " hello i am  \(name)  my age is \(age) and i live in \(city) 😉")
 		
 		}
 }
 
-var aPerson  = Person( name : "Tim" , age : 20, city : "ontario")
+let aPerson = Person(name : "tony", age : 22, city : "ohaio")
 
-//print ( aPerson.name )
+let bPerson = Person(name : "Tim", age : 20, city : "ontario")
 
-print( aPerson.printHello( ) )
 
-  
-  
+print(aPerson.printHello())
+print(bPerson.printHello())
+
